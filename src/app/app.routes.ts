@@ -4,6 +4,8 @@ export const appRoutes: Route[] = [
     {
         path: '',
         loadChildren: () =>
-            import('./features/gis-map/gis-map.routes').then((m) => m.gisMap),
+            import('./features/gis-map/gis-map.module').then(
+                (m) => m.GisMapModule
+            ),
     },
 ];
