@@ -1,6 +1,7 @@
 import {Component} from '@angular/core';
 import * as mapboxgl from 'mapbox-gl';
 import {LngLatLike} from 'mapbox-gl';
+import ModelLayer from '../model-layer/model-layer';
 
 @Component({
     selector: 'ga-gis-map',
@@ -21,6 +22,16 @@ export class GisMapComponent {
         }
         this.labelLayerId = this.getLabelLayerId(layers);
         this.map.addControl(new mapboxgl.NavigationControl());
+        map.addLayer(
+            new ModelLayer({
+                id: 'layer-3d',
+                url: 'assets/futuristic_building.glb',
+                origin: [12.5657093524933, 55.6725985358769],
+                altitude: 26.3,
+                rotateY: 5.3,
+                scale: 34.8,
+            })
+        );
     }
 
     private getLabelLayerId(layers: mapboxgl.AnyLayer[]) {
