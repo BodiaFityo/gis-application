@@ -1,43 +1,67 @@
 <section class="gis-map">
-    <mgl-map
-        [style]="'mapbox://styles/mapbox/dark-v11'"
-        [zoom]="zoom"
-        [center]="center"
-        [pitch]="[45]"
-        [bearing]="[-17.6]"
-        (mapLoad)="onLoad($event.target)"
-        [attributionControl]="false"
-    >
-        <mgl-layer
-            id="3d-buildings"
-            source="composite"
-            sourceLayer="building"
-            [filter]="['==', 'extrude', 'true']"
-            type="fill-extrusion"
-            [minzoom]="15"
-            [paint]="{
-                'fill-extrusion-color': '#aaa',
-                'fill-extrusion-height': [
-                    'interpolate',
-                    ['linear'],
-                    ['zoom'],
-                    15,
-                    0,
-                    15.05,
-                    ['get', 'height']
-                ],
-                'fill-extrusion-base': [
-                    'interpolate',
-                    ['linear'],
-                    ['zoom'],
-                    15,
-                    0,
-                    15.05,
-                    ['get', 'min_height']
-                ],
-                'fill-extrusion-opacity': 0.6
-            }"
-            [before]="labelLayerId"
-        ></mgl-layer>
-    </mgl-map>
+    <ng-container *ngIf="$route | async">
+        <mgl-map
+            [style]="'mapbox://styles/mapbox/dark-v11'"
+            [zoom]="zoom"
+            [center]="center"
+            [pitch]="[45]"
+            [bearing]="[-17.6]"
+            (mapLoad)="onLoad($event.target)"
+            [attributionControl]="false"
+        >
+            <mgl-layer
+                id="3d-buildings"
+                source="composite"
+                sourceLayer="building"
+                [filter]="['==', 'extrude', 'true']"
+                type="fill-extrusion"
+                [minzoom]="15"
+                [paint]="{
+                    'fill-extrusion-color': '#aaa',
+                    'fill-extrusion-height': [
+                        'interpolate',
+                        ['linear'],
+                        ['zoom'],
+                        15,
+                        0,
+                        15.05,
+                        ['get', 'height']
+                    ],
+                    'fill-extrusion-base': [
+                        'interpolate',
+                        ['linear'],
+                        ['zoom'],
+                        15,
+                        0,
+                        15.05,
+                        ['get', 'min_height']
+                    ],
+                    'fill-extrusion-opacity': 0.6
+                }"
+                [before]="labelLayerId"
+            ></mgl-layer>
+        </mgl-map>
+        <div class="legend">
+            <div class="legend__container">
+                <fieldset>
+                    <label for="gis-labels">GIS Map</label>
+                    <input
+                        type="checkbox"
+                        id="gis-labels"
+                        [checked]="true"
+                        (change)="gisMapToggle($event)"
+                    />
+                </fieldset>
+                <fieldset>
+                    <label for="heat-labels">Heat Map</label>
+                    <input
+                        type="checkbox"
+                        id="heat-labels"
+                        [checked]="false"
+                        (change)="heatMapToggle($event)"
+                    />
+                </fieldset>
+            </div>
+        </div>
+    </ng-container>
 </section>

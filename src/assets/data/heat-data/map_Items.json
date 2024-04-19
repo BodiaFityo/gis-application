@@ -1,0 +1,455 @@
+{
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [12.56508, 55.67196],
+                "type": "Point"
+            },
+            "id": "54222f76-9006-473a-bc0e-4cd0a6d946b3",
+            "type": "Feature",
+            "properties": {
+                "marker-symbol": "point",
+                "marker-color": "FF0000",
+                "description": "",
+                "title": "Alert_1",
+                "marker-size": "1",
+                "class": "Marker",
+                "folderId": null,
+                "marker-rotation": null
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [12.56551, 55.67207],
+                "type": "Point"
+            },
+            "id": "3941815f-4fef-4a40-a65f-35e9e2b7dba6",
+            "type": "Feature",
+            "properties": {
+                "marker-symbol": "point",
+                "marker-color": "FF0000",
+                "description": "",
+                "title": "Alert_2",
+                "marker-size": "1",
+                "class": "Marker",
+                "folderId": null,
+                "marker-rotation": null
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [12.56615, 55.67195],
+                "type": "Point"
+            },
+            "id": "b08b4272-a5d5-4d42-8acb-1224455a657b",
+            "type": "Feature",
+            "properties": {
+                "marker-symbol": "point",
+                "marker-color": "FF0000",
+                "description": "",
+                "title": "Alert_3",
+                "marker-size": "1",
+                "class": "Marker",
+                "folderId": null,
+                "marker-rotation": null
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [12.56555, 55.67174],
+                "type": "Point"
+            },
+            "id": "9d857aa0-0675-4edb-a1a5-73ba0c39ef88",
+            "type": "Feature",
+            "properties": {
+                "marker-symbol": "point",
+                "marker-color": "FF0000",
+                "description": "",
+                "title": "Alert_4",
+                "marker-size": "1",
+                "class": "Marker",
+                "folderId": null,
+                "marker-rotation": null
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [12.56429, 55.67274],
+                "type": "Point"
+            },
+            "id": "2bbbe3f2-2216-4233-9a49-aba669a7c143",
+            "type": "Feature",
+            "properties": {
+                "marker-symbol": "point",
+                "marker-color": "FF0000",
+                "description": "",
+                "title": "Alert_6",
+                "marker-size": "1",
+                "class": "Marker",
+                "folderId": null,
+                "marker-rotation": null
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [12.56507, 55.67299],
+                "type": "Point"
+            },
+            "id": "380af4f4-0ed4-4203-929d-9fe84a8a437f",
+            "type": "Feature",
+            "properties": {
+                "marker-symbol": "point",
+                "marker-color": "FF0000",
+                "description": "",
+                "title": "Alert_7",
+                "marker-size": "1",
+                "class": "Marker",
+                "folderId": null,
+                "marker-rotation": null
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [12.565269470214844, 55.67252130503684],
+                "type": "Point"
+            },
+            "id": "25ac1fbb-c487-4b49-8f1d-6722c412db19",
+            "type": "Feature",
+            "properties": {
+                "marker-symbol": "point",
+                "marker-color": "FF0000",
+                "description": "",
+                "title": "Alert_8",
+                "marker-size": "1",
+                "class": "Marker",
+                "folderId": null,
+                "marker-rotation": null
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [12.56416, 55.67235],
+                "type": "Point"
+            },
+            "id": "67be7179-5eea-45e4-8116-2df583dfee0e",
+            "type": "Feature",
+            "properties": {
+                "marker-symbol": "point",
+                "marker-color": "FF0000",
+                "description": "",
+                "title": "Alert_9",
+                "marker-size": "1",
+                "class": "Marker",
+                "folderId": null,
+                "marker-rotation": null
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [12.566192150115967, 55.672460821006254],
+                "type": "Point"
+            },
+            "id": "95e38bc8-37aa-42b5-a880-8cc022e635d4",
+            "type": "Feature",
+            "properties": {
+                "marker-symbol": "point",
+                "marker-color": "FF0000",
+                "description": "",
+                "title": "Alert_10",
+                "marker-size": "1",
+                "class": "Marker",
+                "folderId": null,
+                "marker-rotation": null
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [12.56723, 55.67004],
+                "type": "Point"
+            },
+            "id": "52e39305-023b-4aa8-b7e9-32407f3bdc65",
+            "type": "Feature",
+            "properties": {
+                "marker-symbol": "point",
+                "marker-color": "FF0000",
+                "description": "",
+                "title": "Alert_11",
+                "marker-size": "1",
+                "class": "Marker",
+                "folderId": null,
+                "marker-rotation": null
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [12.559497356414797, 55.66474685286811],
+                "type": "Point"
+            },
+            "id": "847188d7-88a3-4cc6-ba41-91487b44f1a3",
+            "type": "Feature",
+            "properties": {
+                "marker-symbol": "point",
+                "marker-color": "FF0000",
+                "description": "",
+                "title": "Alert_12",
+                "marker-size": "1",
+                "class": "Marker",
+                "folderId": null,
+                "marker-rotation": null
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [12.559518814086916, 55.66461376143741],
+                "type": "Point"
+            },
+            "id": "b80cfff5-cf17-4f98-9cea-540d34051824",
+            "type": "Feature",
+            "properties": {
+                "marker-symbol": "point",
+                "marker-color": "FF0000",
+                "description": "",
+                "title": "Alert_13",
+                "marker-size": "1",
+                "class": "Marker",
+                "folderId": null,
+                "marker-rotation": null
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [12.546300888061523, 55.64284951991239],
+                "type": "Point"
+            },
+            "id": "81912f93-7afb-4f49-82be-6c0c558c1670",
+            "type": "Feature",
+            "properties": {
+                "marker-symbol": "point",
+                "marker-color": "FF0000",
+                "description": "",
+                "title": "Alert_14",
+                "marker-size": "1",
+                "class": "Marker",
+                "folderId": null,
+                "marker-rotation": null
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [12.546858787536621, 55.64251055130765],
+                "type": "Point"
+            },
+            "id": "217779bd-f27d-4cbd-b1f3-26df9243acbe",
+            "type": "Feature",
+            "properties": {
+                "marker-symbol": "point",
+                "marker-color": "FF0000",
+                "description": "",
+                "title": "Alert_15",
+                "marker-size": "1",
+                "class": "Marker",
+                "folderId": null,
+                "marker-rotation": null
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [12.547223567962648, 55.64217157976943],
+                "type": "Point"
+            },
+            "id": "023faea0-5a6b-42c0-a91d-2066753d8c37",
+            "type": "Feature",
+            "properties": {
+                "marker-symbol": "point",
+                "marker-color": "FF0000",
+                "description": "",
+                "title": "Alert_16",
+                "marker-size": "1",
+                "class": "Marker",
+                "folderId": null,
+                "marker-rotation": null
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [12.547502517700197, 55.64198998666725],
+                "type": "Point"
+            },
+            "id": "2b901c29-cc51-41d6-a22d-d4f23a3fa6a6",
+            "type": "Feature",
+            "properties": {
+                "marker-symbol": "point",
+                "marker-color": "FF0000",
+                "description": "",
+                "title": "Alert_17",
+                "marker-size": "1",
+                "class": "Marker",
+                "folderId": null,
+                "marker-rotation": null
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [12.59809970855713, 55.62955779397663],
+                "type": "Point"
+            },
+            "id": "165715d5-f163-45f7-80d9-1f5c595b4c5e",
+            "type": "Feature",
+            "properties": {
+                "marker-symbol": "point",
+                "marker-color": "FF0000",
+                "description": "",
+                "title": "Alert_18",
+                "marker-size": "1",
+                "class": "Marker",
+                "folderId": null,
+                "marker-rotation": null
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [12.649233341217043, 55.629467361847105],
+                "type": "Point"
+            },
+            "id": "171b6f22-013b-4f84-bd08-7fdc71bc2c1c",
+            "type": "Feature",
+            "properties": {
+                "marker-symbol": "point",
+                "marker-color": "FF0000",
+                "description": "",
+                "title": "Alert_19",
+                "marker-size": "1",
+                "class": "Marker",
+                "folderId": null,
+                "marker-rotation": null
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [12.649855613708496, 55.6295158022371],
+                "type": "Point"
+            },
+            "id": "6c7c0597-3576-496f-9375-410a1f8777a2",
+            "type": "Feature",
+            "properties": {
+                "marker-symbol": "point",
+                "marker-color": "FF0000",
+                "description": "",
+                "title": "Alert_20",
+                "marker-size": "1",
+                "class": "Marker",
+                "folderId": null,
+                "marker-rotation": null
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [12.647838592529299, 55.62957635264036],
+                "type": "Point"
+            },
+            "id": "0293865b-2093-42b7-a8f5-a03b9d713b90",
+            "type": "Feature",
+            "properties": {
+                "marker-symbol": "point",
+                "marker-color": "FF0000",
+                "description": "",
+                "title": "Alert_21",
+                "marker-size": "1",
+                "class": "Marker",
+                "folderId": null,
+                "marker-rotation": null
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [12.651336193084717, 55.62960057277548],
+                "type": "Point"
+            },
+            "id": "b97c32cb-05e2-4f16-bb0d-251f028a3f75",
+            "type": "Feature",
+            "properties": {
+                "marker-symbol": "point",
+                "marker-color": "FF0000",
+                "description": "",
+                "title": "Alert_22",
+                "marker-size": "1",
+                "class": "Marker",
+                "folderId": null,
+                "marker-rotation": null
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [12.64876127243042, 55.62972167322653],
+                "type": "Point"
+            },
+            "id": "5328d709-ea1e-440b-9b2a-2e2b6603f16e",
+            "type": "Feature",
+            "properties": {
+                "marker-symbol": "point",
+                "marker-color": "FF0000",
+                "description": "",
+                "title": "Alert_23",
+                "marker-size": "1",
+                "class": "Marker",
+                "folderId": null,
+                "marker-rotation": null
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [12.650477886199953, 55.62966112304778],
+                "type": "Point"
+            },
+            "id": "3ea00547-75d8-448f-8bda-c9f04d92dfe0",
+            "type": "Feature",
+            "properties": {
+                "marker-symbol": "point",
+                "marker-color": "FF0000",
+                "description": "",
+                "title": "Alert_24",
+                "marker-size": "1",
+                "class": "Marker",
+                "folderId": null,
+                "marker-rotation": null
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [12.64941, 55.62962],
+                "type": "Point"
+            },
+            "id": "98d437c1-4a26-48b0-8c51-d8bf37e781de",
+            "type": "Feature",
+            "properties": {
+                "marker-symbol": "point",
+                "marker-color": "FF0000",
+                "description": "",
+                "title": "Alert_25",
+                "marker-size": "1",
+                "class": "Marker",
+                "folderId": null,
+                "marker-rotation": null
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [12.566256523132326, 55.671542354533415],
+                "type": "Point"
+            },
+            "id": "ba6ecc0c-4614-462f-84f8-627af23cf991",
+            "type": "Feature",
+            "properties": {
+                "marker-symbol": "point",
+                "marker-color": "FF0000",
+                "description": "",
+                "title": "Alert_5",
+                "marker-size": "1",
+                "class": "Marker",
+                "folderId": null,
+                "marker-rotation": null
+            }
+        }
+    ],
+    "type": "FeatureCollection"
+}
