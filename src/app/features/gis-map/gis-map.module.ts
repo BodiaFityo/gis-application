@@ -12,7 +12,7 @@ import {NgxMapboxGLModule} from 'ngx-mapbox-gl';
         GisMapRoutingModule,
         NgxMapboxGLModule.withConfig({
             accessToken:
-                'pk.eyJ1IjoiYm9nZGFzNjR1YSIsImEiOiJjbHY1MzBqZHowYng0MnFvYnYwemVyMTUzIn0.0_X2FcWmoEP-kN3sPE1-PA',
+                'pk.eyJ1IjoidmxhZGFiIiwiYSI6ImNsdjU4MTg1ZDAwNTMya28wZnM4eG5ucWYifQ.t5wdkT-NP8lqJnM3TMiYKg',
         }),
     ],
 })

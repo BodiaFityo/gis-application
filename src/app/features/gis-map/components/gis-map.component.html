@@ -1,7 +1,7 @@
 <section class="gis-map">
     <ng-container *ngIf="$route | async">
         <mgl-map
-            [style]="'mapbox://styles/mapbox/dark-v11'"
+            [style]="'mapbox://styles/vladab/clv6msqdt00ll01oc90fl6xsr'"
             [zoom]="zoom"
             [center]="center"
             [pitch]="[45]"
@@ -15,29 +15,7 @@
                 sourceLayer="building"
                 [filter]="['==', 'extrude', 'true']"
                 type="fill-extrusion"
-                [minzoom]="15"
-                [paint]="{
-                    'fill-extrusion-color': '#aaa',
-                    'fill-extrusion-height': [
-                        'interpolate',
-                        ['linear'],
-                        ['zoom'],
-                        15,
-                        0,
-                        15.05,
-                        ['get', 'height']
-                    ],
-                    'fill-extrusion-base': [
-                        'interpolate',
-                        ['linear'],
-                        ['zoom'],
-                        15,
-                        0,
-                        15.05,
-                        ['get', 'min_height']
-                    ],
-                    'fill-extrusion-opacity': 0.6
-                }"
+                [minzoom]="10"
                 [before]="labelLayerId"
             ></mgl-layer>
         </mgl-map>
