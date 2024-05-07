@@ -1,0 +1,23 @@
+<section class="checkbox-section">
+    <mat-checkbox
+        class="checkbox-section__checkbox"
+        [checked]="allChecked"
+        [color]="'primary'"
+        [indeterminate]="someComplete()"
+        (change)="setAll($event.checked, control)"
+    >
+        {{ control.name }}
+    </mat-checkbox>
+
+    <ul>
+        <li *ngFor="let subControl of control.subControl">
+            <mat-checkbox
+                [(ngModel)]="subControl.checked"
+                [color]="'primary'"
+                (change)="updateAllChecked(subControl)"
+            >
+                {{ subControl.name }}
+            </mat-checkbox>
+        </li>
+    </ul>
+</section>

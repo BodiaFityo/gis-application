@@ -1,0 +1,25 @@
+<section class="menu">
+    <button
+        #btn
+        class="menu__btn"
+        *ngIf="!showMenuContent"
+        (click)="onMenuBtn()"
+    ></button>
+    <div #menu class="menu__content" *ngIf="showMenuContent">
+        <gis-checkbox
+            [control]="vehicle"
+            (onAllChecked)="updateAllChecked($event)"
+            (onSetAll)="setAll($event)"
+        ></gis-checkbox>
+        <gis-checkbox
+            [control]="railsGroup"
+            (onAllChecked)="updateAllChecked($event)"
+            (onSetAll)="setAll($event)"
+        ></gis-checkbox>
+        <gis-checkbox
+            [control]="maps"
+            (onAllChecked)="updateAllChecked($event)"
+            (onSetAll)="setAll($event)"
+        ></gis-checkbox>
+    </div>
+</section>

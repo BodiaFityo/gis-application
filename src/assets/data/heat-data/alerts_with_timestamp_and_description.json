@@ -1,0 +1,484 @@
+{
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [12.56508, 55.67196],
+                "type": "Point"
+            },
+            "id": "54222f76-9006-473a-bc0e-4cd0a6d946b3",
+            "properties": {
+                "class": "Marker",
+                "description": "some description for an specific alert",
+                "folderId": null,
+                "marker-color": "FF0000",
+                "marker-rotation": null,
+                "marker-size": "1",
+                "marker-symbol": "point",
+                "timestamp": "Jan 01, 2024, 00:00:00 AM",
+                "title": "Alert_1"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [12.56551, 55.67207],
+                "type": "Point"
+            },
+            "id": "3941815f-4fef-4a40-a65f-35e9e2b7dba6",
+            "properties": {
+                "class": "Marker",
+                "description": "some description for an specific alert",
+                "folderId": null,
+                "marker-color": "FF0000",
+                "marker-rotation": null,
+                "marker-size": "1",
+                "marker-symbol": "point",
+                "timestamp": "Jan 02, 2024, 00:00:00 AM",
+                "title": "Alert_2"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [12.56615, 55.67195],
+                "type": "Point"
+            },
+            "id": "b08b4272-a5d5-4d42-8acb-1224455a657b",
+            "properties": {
+                "class": "Marker",
+                "description": "some description for an specific alert",
+                "folderId": null,
+                "marker-color": "FF0000",
+                "marker-rotation": null,
+                "marker-size": "1",
+                "marker-symbol": "point",
+                "timestamp": "Jan 03, 2024, 00:00:00 AM",
+                "title": "Alert_3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [12.56555, 55.67174],
+                "type": "Point"
+            },
+            "id": "9d857aa0-0675-4edb-a1a5-73ba0c39ef88",
+            "properties": {
+                "class": "Marker",
+                "description": "some description for an specific alert",
+                "folderId": null,
+                "marker-color": "FF0000",
+                "marker-rotation": null,
+                "marker-size": "1",
+                "marker-symbol": "point",
+                "timestamp": "Jan 04, 2024, 00:00:00 AM",
+                "title": "Alert_4"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [12.5662565231323, 55.6715423545334],
+                "type": "Point"
+            },
+            "id": "ba6ecc0c-4614-462f-84f8-627af23cf991",
+            "properties": {
+                "class": "Marker",
+                "description": "some description for an specific alert",
+                "folderId": null,
+                "marker-color": "FF0000",
+                "marker-rotation": null,
+                "marker-size": "1",
+                "marker-symbol": "point",
+                "timestamp": "Jan 5, 2024, 00:00:00 AM",
+                "title": "Alert_5"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [12.56429, 55.67274],
+                "type": "Point"
+            },
+            "id": "2bbbe3f2-2216-4233-9a49-aba669a7c143",
+            "properties": {
+                "class": "Marker",
+                "description": "some description for an specific alert",
+                "folderId": null,
+                "marker-color": "FF0000",
+                "marker-rotation": null,
+                "marker-size": "1",
+                "marker-symbol": "point",
+                "timestamp": "Jan 06, 2024, 00:00:00 AM",
+                "title": "Alert_6"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [12.56507, 55.67299],
+                "type": "Point"
+            },
+            "id": "380af4f4-0ed4-4203-929d-9fe84a8a437f",
+            "properties": {
+                "class": "Marker",
+                "description": "some description for an specific alert",
+                "folderId": null,
+                "marker-color": "FF0000",
+                "marker-rotation": null,
+                "marker-size": "1",
+                "marker-symbol": "point",
+                "timestamp": "Jan 07, 2024, 00:00:00 AM",
+                "title": "Alert_7"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [12.5652694702148, 55.6725213050368],
+                "type": "Point"
+            },
+            "id": "25ac1fbb-c487-4b49-8f1d-6722c412db19",
+            "properties": {
+                "class": "Marker",
+                "description": "some description for an specific alert",
+                "folderId": null,
+                "marker-color": "FF0000",
+                "marker-rotation": null,
+                "marker-size": "1",
+                "marker-symbol": "point",
+                "timestamp": "Jan 08, 2024, 00:00:00 AM",
+                "title": "Alert_8"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [12.56416, 55.67235],
+                "type": "Point"
+            },
+            "id": "67be7179-5eea-45e4-8116-2df583dfee0e",
+            "properties": {
+                "class": "Marker",
+                "description": "some description for an specific alert",
+                "folderId": null,
+                "marker-color": "FF0000",
+                "marker-rotation": null,
+                "marker-size": "1",
+                "marker-symbol": "point",
+                "timestamp": "Jan 09, 2024, 00:00:00 AM",
+                "title": "Alert_9"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [12.566192150116, 55.6724608210063],
+                "type": "Point"
+            },
+            "id": "95e38bc8-37aa-42b5-a880-8cc022e635d4",
+            "properties": {
+                "class": "Marker",
+                "description": "some description for an specific alert",
+                "folderId": null,
+                "marker-color": "FF0000",
+                "marker-rotation": null,
+                "marker-size": "1",
+                "marker-symbol": "point",
+                "timestamp": "Jan 10, 2024, 00:00:00 AM",
+                "title": "Alert_10"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [12.56723, 55.67004],
+                "type": "Point"
+            },
+            "id": "52e39305-023b-4aa8-b7e9-32407f3bdc65",
+            "properties": {
+                "class": "Marker",
+                "description": "some description for an specific alert",
+                "folderId": null,
+                "marker-color": "FF0000",
+                "marker-rotation": null,
+                "marker-size": "1",
+                "marker-symbol": "point",
+                "timestamp": "Jan 11, 2024, 00:00:00 AM",
+                "title": "Alert_11"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [12.5594973564148, 55.6647468528681],
+                "type": "Point"
+            },
+            "id": "847188d7-88a3-4cc6-ba41-91487b44f1a3",
+            "properties": {
+                "class": "Marker",
+                "description": "some description for an specific alert",
+                "folderId": null,
+                "marker-color": "FF0000",
+                "marker-rotation": null,
+                "marker-size": "1",
+                "marker-symbol": "point",
+                "timestamp": "Jan 12, 2024, 00:00:00 AM",
+                "title": "Alert_12"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [12.5595188140869, 55.6646137614374],
+                "type": "Point"
+            },
+            "id": "b80cfff5-cf17-4f98-9cea-540d34051824",
+            "properties": {
+                "class": "Marker",
+                "description": "some description for an specific alert",
+                "folderId": null,
+                "marker-color": "FF0000",
+                "marker-rotation": null,
+                "marker-size": "1",
+                "marker-symbol": "point",
+                "timestamp": "Jan 13, 2024, 00:00:00 AM",
+                "title": "Alert_13"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [12.5463008880615, 55.6428495199124],
+                "type": "Point"
+            },
+            "id": "81912f93-7afb-4f49-82be-6c0c558c1670",
+            "properties": {
+                "id": 1,
+                "class": "Marker",
+                "description": "some description for an specific alert",
+                "folderId": null,
+                "marker-color": "FF0000",
+                "marker-rotation": null,
+                "marker-size": "1",
+                "marker-symbol": "point",
+                "timestamp": "Jan 14, 2024, 00:00:00 AM",
+                "title": "Alert_14"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [12.5463008880615, 55.6428495199124],
+                "type": "Point"
+            },
+            "id": "217779bd-f27d-4cbd-b1f3-26df9243acbe",
+            "properties": {
+                "id": 1,
+                "class": "Marker",
+                "description": "some description for an specific alert",
+                "folderId": null,
+                "marker-color": "FF0000",
+                "marker-rotation": null,
+                "marker-size": "1",
+                "marker-symbol": "point",
+                "timestamp": "Jan 15, 2024, 00:00:00 AM",
+                "title": "Alert_15"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [12.5463008880615, 55.6428495199124],
+                "type": "Point"
+            },
+            "id": "023faea0-5a6b-42c0-a91d-2066753d8c37",
+            "properties": {
+                "id": 1,
+                "class": "Marker",
+                "description": "some description for an specific alert",
+                "folderId": null,
+                "marker-color": "FF0000",
+                "marker-rotation": null,
+                "marker-size": "1",
+                "marker-symbol": "point",
+                "timestamp": "Jan 16, 2024, 00:00:00 AM",
+                "title": "Alert_16"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [12.5463008880615, 55.6428495199124],
+                "type": "Point"
+            },
+            "id": "2b901c29-cc51-41d6-a22d-d4f23a3fa6a6",
+            "properties": {
+                "id": 1,
+                "class": "Marker",
+                "description": "some description for an specific alert",
+                "folderId": null,
+                "marker-color": "FF0000",
+                "marker-rotation": null,
+                "marker-size": "1",
+                "marker-symbol": "point",
+                "timestamp": "Jan 17, 2024, 00:00:00 AM",
+                "title": "Alert_17"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [12.5980997085571, 55.6295577939766],
+                "type": "Point"
+            },
+            "id": "165715d5-f163-45f7-80d9-1f5c595b4c5e",
+            "properties": {
+                "class": "Marker",
+                "description": "some description for an specific alert",
+                "folderId": null,
+                "marker-color": "FF0000",
+                "marker-rotation": null,
+                "marker-size": "1",
+                "marker-symbol": "point",
+                "timestamp": "Jan 18, 2024, 00:00:00 AM",
+                "title": "Alert_18"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [12.649233341217, 55.6294673618471],
+                "type": "Point"
+            },
+            "id": "171b6f22-013b-4f84-bd08-7fdc71bc2c1c",
+            "properties": {
+                "class": "Marker",
+                "description": "some description for an specific alert",
+                "folderId": null,
+                "marker-color": "FF0000",
+                "marker-rotation": null,
+                "marker-size": "1",
+                "marker-symbol": "point",
+                "timestamp": "Jan 19, 2024, 00:00:00 AM",
+                "title": "Alert_19"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [12.6498556137085, 55.6295158022371],
+                "type": "Point"
+            },
+            "id": "6c7c0597-3576-496f-9375-410a1f8777a2",
+            "properties": {
+                "class": "Marker",
+                "description": "some description for an specific alert",
+                "folderId": null,
+                "marker-color": "FF0000",
+                "marker-rotation": null,
+                "marker-size": "1",
+                "marker-symbol": "point",
+                "timestamp": "Jan 20, 2024, 00:00:00 AM",
+                "title": "Alert_20"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [12.6478385925293, 55.6295763526404],
+                "type": "Point"
+            },
+            "id": "0293865b-2093-42b7-a8f5-a03b9d713b90",
+            "properties": {
+                "class": "Marker",
+                "description": "some description for an specific alert",
+                "folderId": null,
+                "marker-color": "FF0000",
+                "marker-rotation": null,
+                "marker-size": "1",
+                "marker-symbol": "point",
+                "timestamp": "Jan 21, 2024, 00:00:00 AM",
+                "title": "Alert_21"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [12.6513361930847, 55.6296005727755],
+                "type": "Point"
+            },
+            "id": "b97c32cb-05e2-4f16-bb0d-251f028a3f75",
+            "properties": {
+                "class": "Marker",
+                "description": "some description for an specific alert",
+                "folderId": null,
+                "marker-color": "FF0000",
+                "marker-rotation": null,
+                "marker-size": "1",
+                "marker-symbol": "point",
+                "timestamp": "Jan 22, 2024, 00:00:00 AM",
+                "title": "Alert_22"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [12.6487612724304, 55.6297216732265],
+                "type": "Point"
+            },
+            "id": "5328d709-ea1e-440b-9b2a-2e2b6603f16e",
+            "properties": {
+                "class": "Marker",
+                "description": "some description for an specific alert",
+                "folderId": null,
+                "marker-color": "FF0000",
+                "marker-rotation": null,
+                "marker-size": "1",
+                "marker-symbol": "point",
+                "timestamp": "Jan 23, 2024, 00:00:00 AM",
+                "title": "Alert_23"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [12.6504778862, 55.6296611230478],
+                "type": "Point"
+            },
+            "id": "3ea00547-75d8-448f-8bda-c9f04d92dfe0",
+            "properties": {
+                "class": "Marker",
+                "description": "some description for an specific alert",
+                "folderId": null,
+                "marker-color": "FF0000",
+                "marker-rotation": null,
+                "marker-size": "1",
+                "marker-symbol": "point",
+                "timestamp": "Jan 24, 2024, 00:00:00 AM",
+                "title": "Alert_24"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [12.64941, 55.62962],
+                "type": "Point"
+            },
+            "id": "98d437c1-4a26-48b0-8c51-d8bf37e781de",
+            "properties": {
+                "class": "Marker",
+                "description": "some description for an specific alert",
+                "folderId": null,
+                "marker-color": "FF0000",
+                "marker-rotation": null,
+                "marker-size": "1",
+                "marker-symbol": "point",
+                "timestamp": "Jan 25, 2024, 00:00:00 AM",
+                "title": "Alert_25"
+            },
+            "type": "Feature"
+        }
+    ],
+    "type": "FeatureCollection"
+}

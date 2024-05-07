@@ -1,0 +1,34 @@
+:host::ng-deep {
+    .menu {
+        &__btn {
+            position: absolute;
+            top: 25px;
+            right: 25px;
+            width: 64px;
+            height: 64px;
+            border-radius: 8px;
+            border: none;
+            opacity: 1;
+            background-image: url('./../../../../assets/data/images/menu.png');
+
+            &:hover {
+                opacity: 0.6;
+                cursor: pointer;
+            }
+        }
+
+        &__content {
+            position: absolute;
+            width: 240px;
+            top: 25px;
+            right: 25px;
+            padding: '10px';
+            border-radius: 8%;
+            background-color: #141218;
+        }
+
+        .mdc-label {
+            color: #ffffff;
+        }
+    }
+}

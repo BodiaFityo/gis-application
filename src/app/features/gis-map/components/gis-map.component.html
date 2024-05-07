@@ -1,5 +1,5 @@
 <section class="gis-map">
-    <ng-container *ngIf="$route | async">
+    <ng-container *ngIf="$data | async">
         <mgl-map
             [style]="'mapbox://styles/vladab/clv6msqdt00ll01oc90fl6xsr'"
             [zoom]="zoom"
@@ -15,31 +15,80 @@
                 sourceLayer="building"
                 [filter]="['==', 'extrude', 'true']"
                 type="fill-extrusion"
-                [minzoom]="10"
+                [minzoom]="15"
                 [before]="labelLayerId"
             ></mgl-layer>
         </mgl-map>
-        <div class="legend">
-            <div class="legend__container">
-                <fieldset>
-                    <label for="gis-labels">GIS Map</label>
-                    <input
-                        type="checkbox"
-                        id="gis-labels"
-                        [checked]="true"
-                        (change)="gisMapToggle($event)"
-                    />
-                </fieldset>
-                <fieldset>
-                    <label for="heat-labels">Heat Map</label>
-                    <input
-                        type="checkbox"
-                        id="heat-labels"
-                        [checked]="false"
-                        (change)="heatMapToggle($event)"
-                    />
-                </fieldset>
-            </div>
-        </div>
+
+        <gis-menu
+            [maps]="maps"
+            [railsGroup]="railsGroup"
+            [vehicle]="vehicle"
+            (onAllChecked)="onAllChecked($event)"
+            (onSetAll)="onSetAll($event)"
+        ></gis-menu>
     </ng-container>
+
+    <div #accordion>
+        <div class="header header--big">
+            <span class="header__title">Tunnel</span>
+        </div>
+        <cdk-accordion class="accordion">
+            <cdk-accordion-item
+                *ngFor="let item of groupAlerts; let index = index"
+                #accordionItem="cdkAccordionItem"
+                class="accordion__accordion-item"
+                role="button"
+                tabindex="0"
+                [attr.id]="'accordion-header-' + index"
+                [attr.aria-expanded]="accordionItem.expanded"
+                [attr.aria-controls]="'accordion-body-' + index"
+            >
+                <div
+                    class="accordion-item-header"
+                    (click)="accordionItem.toggle()"
+                >
+                    <span class="accordion-item-header__notification"> </span>
+                    <div class="accordion-item-header__title">
+                        {{ item.properties.title }}
+                    </div>
+                    <div class="accordion-item-header__date">
+                        {{ item.properties.timestamp }}
+                    </div>
+
+                    <span
+                        [ngClass]="{
+                            'accordion-item-header__description-top':
+                                accordionItem.expanded
+                        }"
+                        class="accordion-item-header__description-bottom"
+                    >
+                    </span>
+                </div>
+                <div
+                    class="accordion-item-body popup"
+                    role="region"
+                    [style.display]="accordionItem.expanded ? '' : 'none'"
+                    [attr.id]="'accordion-body-' + index"
+                    [attr.aria-labelledby]="'accordion-header-' + index"
+                >
+                    <div class="popup__row popup__row--light">
+                        <span>id: </span> <span>{{ item.id }}</span>
+                    </div>
+                    <div class="popup__row">
+                        <span>Description: </span>
+                        <span>{{ item.properties.description }}</span>
+                    </div>
+                    <div class="popup__row popup__row--light">
+                        <span>Longtitude: </span>
+                        <span>{{ item.geometry.coordinates[0] }}</span>
+                    </div>
+                    <div class="popup__row">
+                        <span>Latitude: </span>
+                        <span>{{ item.geometry.coordinates[1] }}</span>
+                    </div>
+                </div>
+            </cdk-accordion-item>
+        </cdk-accordion>
+    </div>
 </section>
